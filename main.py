@@ -84,6 +84,7 @@ def brightness_change(brightness) -> None:
     globals().update(
         brightness_val = brightness
     )
+    print("ADD A POST IN YOU DUMBASS")
 
 
 def apply_styles():
