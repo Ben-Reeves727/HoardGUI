@@ -1,7 +1,7 @@
 [project]
 name = "hoardgui"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.1.1"
+description = "Simple Web UI for controlling lights set up wit HyperHDR"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [

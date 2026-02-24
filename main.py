@@ -64,7 +64,7 @@ def make_brightness_command(brightness: float) -> dict:
         "command"       : "adjustment",
         "adjustment"    : 
         {
-            "classic_config"    : True,
+            "classic_config"    : False,
             "luminanceGain"     : brightness
         }
     }
@@ -84,7 +84,7 @@ def brightness_change(brightness) -> None:
     globals().update(
         brightness_val = brightness
     )
-    print("ADD A POST IN YOU DUMBASS")
+    post(make_brightness_command(brightness))
 
 
 def apply_styles():
